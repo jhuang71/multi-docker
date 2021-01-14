@@ -3,7 +3,9 @@
     "containerDefinitions": [
         {
             "name": "client",
-            "image": ""
+            "image": "jhuang71/multi-client",
+            "hostname": "client",
+            "essential": false
         }
     ]
 }
