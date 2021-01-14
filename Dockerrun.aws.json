@@ -6,6 +6,18 @@
             "image": "jhuang71/multi-client",
             "hostname": "client",
             "essential": false
+        },
+        {
+            "name": "server",
+            "image": "jhuang71/multi-server",
+            "hostname": "api",
+            "essential": false
+        },
+        {
+            "name": "worker",
+            "image": "jhuang71/multi-worker",
+            "hostname": "worker",
+            "essential": false
         }
     ]
 }
